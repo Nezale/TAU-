@@ -1,13 +1,16 @@
 package pl.kozyra.tau.DAO;
 
-import java.util.List;
-import java.util.Optional;
+import pl.kozyra.tau.Domain.RPGfigure;
+
+import java.util.*;
 
 public class FigureDao implements DAO {
 
+    protected Map<Long, RPGfigure> figures;
+
     @Override
     public Optional get(Long id) throws IllegalArgumentException {
-        return Optional.empty();
+        return Optional.ofNullable(figures.get(id));
     }
 
     @Override
