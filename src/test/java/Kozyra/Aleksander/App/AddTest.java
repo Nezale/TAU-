@@ -17,11 +17,13 @@ public class AddTest {
 
     @Test
     public void SumCheck(){
+
         Assert.assertEquals(4,a.sum());
     }
 
     @Test
     public void LoopSumCheck(){
-        Assert.assertEquals(1.0, a.loopSum(), 0.0001);
+        Assert.assertEquals(1.0, a.loopSum(), 0.0001
+        );
     }
 }
