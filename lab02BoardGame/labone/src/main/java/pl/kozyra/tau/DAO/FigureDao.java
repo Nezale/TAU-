@@ -3,6 +3,7 @@ package pl.kozyra.tau.DAO;
 import pl.kozyra.tau.Domain.RPGfigure;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class FigureDao implements DAO<RPGfigure> {
 
@@ -19,12 +20,7 @@ public class FigureDao implements DAO<RPGfigure> {
 
     @Override
     public List<RPGfigure> getAll() {
-        return null;
-    }
-
-    @Override
-    public void save(RPGfigure o) {
-
+        return figures.entrySet().stream().map(x->x.getValue()).collect(Collectors.toList());
     }
 
     @Override

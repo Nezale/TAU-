@@ -111,4 +111,10 @@ public class FigureDaoTest {
         assertArrayEquals(expected.toArray(),real.toArray());
     }
 
+    @Test
+    public void readAllCheck(){
+        Collection<RPGfigure> test = dao.figures.values();
+        assertArrayEquals(test.toArray(), dao.getAll().toArray());
+    }
+
 }
