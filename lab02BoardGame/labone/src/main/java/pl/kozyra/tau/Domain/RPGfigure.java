@@ -34,7 +34,7 @@ public class RPGfigure {
     public String toString() {
         return "FigureDao{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", name=" + name +
                 ", HP=" + HP +
                 '}';
     }
