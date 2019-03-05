@@ -4,32 +4,40 @@ import pl.kozyra.tau.Domain.RPGfigure;
 
 import java.util.*;
 
-public class FigureDao implements DAO {
+public class FigureDao implements DAO<RPGfigure> {
 
     protected Map<Long, RPGfigure> figures;
 
     @Override
-    public Optional get(Long id) throws IllegalArgumentException {
+    public Optional<RPGfigure> get(Long id) throws IllegalArgumentException {
+
+        if (!figures.containsKey(id))
+            throw new IllegalArgumentException("Key does not exist");
+
         return Optional.ofNullable(figures.get(id));
     }
 
     @Override
-    public List getAll() {
+    public List<RPGfigure> getAll() {
         return null;
     }
 
     @Override
-    public void save(Object o) {
+    public void save(RPGfigure o) {
 
     }
 
     @Override
-    public void delete(Object o) throws IllegalArgumentException {
+    public void delete(RPGfigure o) throws IllegalArgumentException {
 
     }
 
     @Override
-    public void update(Object o) throws IllegalArgumentException {
+    public void update(RPGfigure o) throws IllegalArgumentException {
+
+        if (!figures.containsKey(o.getId()))
+            throw new IllegalArgumentException("Key does not exist");
+        figures.put(o.getId(),o);
 
     }
 }

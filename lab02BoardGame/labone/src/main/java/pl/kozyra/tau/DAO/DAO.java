@@ -5,10 +5,10 @@ import java.util.Optional;
 
 public interface DAO<T> {
 
-    Optional<T> get (Long id) throws IllegalArgumentException;
-    List<T> getAll();
-    void save(T o);
-    void delete(T o) throws IllegalArgumentException;
-    void update(T o) throws  IllegalArgumentException;
+    public Optional<T> get (Long id) throws IllegalArgumentException;
+    public List<T> getAll();
+    public void save(T o);
+    public void delete(T o) throws IllegalArgumentException;
+    public void update(T o) throws  IllegalArgumentException;
 
 }
