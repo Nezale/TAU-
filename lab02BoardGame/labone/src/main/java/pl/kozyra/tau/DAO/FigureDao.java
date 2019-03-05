@@ -28,8 +28,10 @@ public class FigureDao implements DAO<RPGfigure> {
     }
 
     @Override
-    public void delete(RPGfigure o) throws IllegalArgumentException {
-
+    public void delete(Long id) throws IllegalArgumentException {
+        if (!figures.containsKey(id))
+            throw new IllegalArgumentException("Key does not exist");
+        figures.remove(id);
     }
 
     @Override

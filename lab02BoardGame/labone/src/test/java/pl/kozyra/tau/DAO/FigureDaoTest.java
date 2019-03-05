@@ -8,10 +8,7 @@ import pl.kozyra.tau.Domain.RPGfigure;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Optional;
+import java.util.*;
 
 @RunWith(BlockJUnit4ClassRunner.class)
 public class FigureDaoTest {
@@ -89,14 +86,29 @@ public class FigureDaoTest {
 
     }
 
-  /*  @Test(expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void deleteDaoExceptionCheck(){
-
+        dao.delete(5L);
     }
 
     @Test
     public void deleteDaoCheck(){
+        RPGfigure f1 = new RPGfigure();
+        f1.setId(1L);
+        f1.setName("Runic Golem");
+        f1.setHP(150);
 
-    }*/
+
+        dao.delete(1L);
+
+        Collection<RPGfigure> real = dao.figures.values();
+
+
+        Collection<RPGfigure> expected = dao.figures.values();
+        expected.remove(f1);
+
+
+        assertArrayEquals(expected.toArray(),real.toArray());
+    }
 
 }
