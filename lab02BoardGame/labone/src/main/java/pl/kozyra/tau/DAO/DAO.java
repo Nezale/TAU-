@@ -1,5 +1,7 @@
 package pl.kozyra.tau.DAO;
 
+import pl.kozyra.tau.Domain.RPGfigure;
+
 import java.util.List;
 import java.util.Optional;
 

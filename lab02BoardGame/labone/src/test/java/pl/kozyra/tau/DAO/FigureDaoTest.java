@@ -9,11 +9,13 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @RunWith(BlockJUnit4ClassRunner.class)
 public class FigureDaoTest {
 
     FigureDao dao;
+    FigureDao daoTest;
 
     @Before
     public void initData(){
@@ -25,15 +27,20 @@ public class FigureDaoTest {
         f1.setHP(150);
 
         f2.setId(2L);
-        f2.setName("Typical Skeleton");
+        f2.setName("skeleton");
         f2.setHP(100);
 
         dao = new FigureDao();
+        daoTest = new FigureDao();
 
-        dao.figures = new HashMap<Long, RPGfigure>();
+        dao.figures = new HashMap<>();
+        daoTest.figures = new HashMap<>();
 
         dao.figures.put(1L,f1);
         dao.figures.put(2L,f2);
+
+        daoTest.figures.put(1L,f1);
+        daoTest.figures.put(2L,f2);
     }
 
     @Test
@@ -70,17 +77,29 @@ public class FigureDaoTest {
         f1.setName("whatever");
         f1.setHP(1203);
 
-        RPGfigure f2 = new RPGfigure();
-        f2.setId(2L);
-        f2.setName("Typical Skeleton");
-        f2.setHP(100);
+        daoTest.figures.put(1L,f1);
 
-        Collection<RPGfigure> expected = dao.figures.values();
-        for (RPGfigure f: expected) if (f.getId()==1L) f.setName("whatever");
+        System.out.println(dao.figures.values().toString());
+
+        /*Map<Long,RPGfigure> testMap = new HashMap<Long, RPGfigure>(dao.figures);*/
+
+
+        Collection<RPGfigure> expected = daoTest.figures.values();
+
+       /* for (RPGfigure f : expected) {
+            if (f.getId() == 1) {
+                f.setName("whatever");
+                f.setHP(1203);
+            }
+        }*/
+
+            System.out.println(expected.toString());
 
         dao.update(f1);
 
         Collection<RPGfigure> real = dao.figures.values();
+
+        System.out.println(real.toString());
 
         assertArrayEquals(expected.toArray(), real.toArray());
 
@@ -98,15 +117,12 @@ public class FigureDaoTest {
         f1.setName("Runic Golem");
         f1.setHP(150);
 
+        daoTest.figures.remove(1L);
+        Collection<RPGfigure> expected = daoTest.figures.values();
 
         dao.delete(1L);
 
         Collection<RPGfigure> real = dao.figures.values();
-
-
-        Collection<RPGfigure> expected = dao.figures.values();
-        expected.remove(f1);
-
 
         assertArrayEquals(expected.toArray(),real.toArray());
     }
