@@ -115,6 +115,22 @@ public class FigureDao implements DAO<RPGfigure> {
 
     @Override
     public RPGfigure getFigure(long id) throws SQLException {
-        return null;
+        try {
+            getFigureStmt.setLong(1, id);
+            ResultSet rs = getFigureStmt.executeQuery();
+
+            if (rs.next()) {
+                RPGfigure f = new RPGfigure();
+                f.setId(rs.getInt("id"));
+                f.setName(rs.getString("name"));
+                f.setHP(rs.getInt("hp"));
+                return f;
+            }
+
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+        throw new SQLException("Person with id " + id + " does not exist");
     }
+
 }
