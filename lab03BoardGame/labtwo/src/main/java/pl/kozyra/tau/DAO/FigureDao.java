@@ -104,9 +104,11 @@ public class FigureDao implements DAO<RPGfigure> {
     }
 
     @Override
-    public int deleteFigure(RPGfigure figure) {
-        return 0;
+    public int deleteFigure(RPGfigure figure) throws SQLException   {
+       return 0;
     }
+
+
 
     @Override
     public int updateFigure(RPGfigure figure) throws SQLException {
