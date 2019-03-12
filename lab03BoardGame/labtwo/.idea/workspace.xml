@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fffe8dd1-979d-46d9-b72a-553c5cf02285" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/DAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+            <state relative-caret-position="257">
+              <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
@@ -258,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552384142101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552384156203" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab02BoardGame/labone" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -475,7 +471,7 @@
       <workItem from="1552139782516" duration="12581000" />
       <workItem from="1552351870524" duration="1521000" />
       <workItem from="1552376108019" duration="889000" />
-      <workItem from="1552377906825" duration="4961000" />
+      <workItem from="1552377906825" duration="4985000" />
     </task>
     <servers />
   </component>
@@ -512,7 +508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27354000" />
+    <option name="totallyTimeSpent" value="27378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,7 +523,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -537,12 +533,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33144477" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33144477" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -625,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        <state relative-caret-position="257">
+          <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />

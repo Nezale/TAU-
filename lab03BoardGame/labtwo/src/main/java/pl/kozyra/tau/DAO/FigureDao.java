@@ -105,7 +105,12 @@ public class FigureDao implements DAO<RPGfigure> {
 
     @Override
     public int deleteFigure(RPGfigure figure) throws SQLException   {
-       return 0;
+        try {
+            deleteFigureStmt.setLong(1, figure.getId());
+            return deleteFigureStmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
     }
 
 
