@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fffe8dd1-979d-46d9-b72a-553c5cf02285" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.kozyra.tau.DAO.FigureDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.kozyra.tau.DAO.FigureDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.kozyra.tau.Domain.FigureTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.kozyra.tau.Domain.FigureTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.kozyra.tau.DAO.FigureDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.kozyra.tau.DAO.FigureDaoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.kozyra.tau.Domain.FigureTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.kozyra.tau.Domain.FigureTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/classes/pl/kozyra/tau/DAO/FigureDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/classes/pl/kozyra/tau/DAO/FigureDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/DatabaseTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/Domain/FigureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/Domain/FigureTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

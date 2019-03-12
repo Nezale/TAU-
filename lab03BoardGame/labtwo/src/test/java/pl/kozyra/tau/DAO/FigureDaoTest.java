@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.junit.rules.Timeout;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
+import org.junit.runners.JUnit4;
 import pl.kozyra.tau.Domain.RPGfigure;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -18,7 +19,7 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@RunWith(BlockJUnit4ClassRunner.class)
+@RunWith(JUnit4.class)
 public class FigureDaoTest {
 
     private static final Logger LOGGER = Logger.getLogger(FigureDaoTest.class.getCanonicalName());

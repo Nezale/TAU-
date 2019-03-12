@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fffe8dd1-979d-46d9-b72a-553c5cf02285" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/TEST-pl.kozyra.tau.DAO.FigureDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/TEST-pl.kozyra.tau.DAO.FigureDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/TEST-pl.kozyra.tau.Domain.FigureTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/TEST-pl.kozyra.tau.Domain.FigureTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/pl.kozyra.tau.DAO.FigureDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/pl.kozyra.tau.DAO.FigureDaoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/pl.kozyra.tau.Domain.FigureTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/surefire-reports/pl.kozyra.tau.Domain.FigureTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab02BoardGame/labone/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/kozyra/tau/DatabaseTestSuite.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="-135">
               <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
@@ -65,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/Domain/FigureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="170">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,16 +71,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="221">
+              <caret line="76" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
                 <element signature="e#645#646#0" expanded="true" />
                 <element signature="e#669#670#0" expanded="true" />
               </folding>
@@ -97,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+            <state relative-caret-position="174">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +117,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/DAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/Domain/RPGfigure.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAtabaseTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DatabaseTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" />
       </list>
     </option>
@@ -270,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552382419002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552383282607" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab02BoardGame/labone" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -293,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FigureDaoTest.deleteDaoCheck">
+  <component name="RunManager" selected="JUnit.FigureDaoTest.AddCheck">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,6 +352,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FigureDaoTest.AddCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kozyra.tau.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kozyra.tau.DAO" />
+      <option name="MAIN_CLASS_NAME" value="pl.kozyra.tau.DAO.FigureDaoTest" />
+      <option name="METHOD_NAME" value="AddCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FigureDaoTest.deleteDaoCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labone" />
       <extension name="coverage">
@@ -414,6 +421,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FigureDaoTest.AddCheck" />
         <item itemvalue="JUnit.FigureDaoTest.deleteDaoCheck" />
         <item itemvalue="JUnit.FigureDaoTest.updateDaoCheck" />
       </list>
@@ -433,20 +441,11 @@
       <workItem from="1552139782516" duration="12581000" />
       <workItem from="1552351870524" duration="1521000" />
       <workItem from="1552376108019" duration="889000" />
-      <workItem from="1552377906825" duration="3365000" />
+      <workItem from="1552377906825" duration="4095000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FigureDaoTest_updateDaoCheck - 2019.03.09 at 18h 20m 01s.xml">
-      <configuration name="FigureDaoTest.updateDaoCheck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FigureDaoTest_updateDaoCheck - 2019.03.09 at 18h 21m 01s.xml">
-      <configuration name="FigureDaoTest.updateDaoCheck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FigureDaoTest_updateDaoCheck - 2019.03.09 at 18h 22m 52s.xml">
-      <configuration name="FigureDaoTest.updateDaoCheck" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FigureDaoTest_updateDaoCheck - 2019.03.09 at 18h 31m 28s.xml">
       <configuration name="FigureDaoTest.updateDaoCheck" configurationId="JUnit" />
     </history-entry>
@@ -468,9 +467,18 @@
     <history-entry file="FigureDaoTest_deleteDaoCheck - 2019.03.12 at 01h 52m 53s.xml">
       <configuration name="FigureDaoTest.deleteDaoCheck" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FigureDaoTest_AddCheck - 2019.03.12 at 10h 26m 43s.xml">
+      <configuration name="FigureDaoTest.AddCheck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureDaoTest_AddCheck - 2019.03.12 at 10h 27m 20s.xml">
+      <configuration name="FigureDaoTest.AddCheck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureDaoTest_AddCheck - 2019.03.12 at 10h 28m 57s.xml">
+      <configuration name="FigureDaoTest.AddCheck" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25758000" />
+    <option name="totallyTimeSpent" value="26488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,7 +493,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -509,7 +517,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.20268457" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20268457" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -526,17 +534,44 @@
     <entry file="file://$PROJECT_DIR$/labone.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DatabaseTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/Domain/FigureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -554,45 +589,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DatabaseTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/Domain/FigureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="221">
+          <caret line="76" column="41" lean-forward="true" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
             <element signature="e#645#646#0" expanded="true" />
             <element signature="e#669#670#0" expanded="true" />
           </folding>

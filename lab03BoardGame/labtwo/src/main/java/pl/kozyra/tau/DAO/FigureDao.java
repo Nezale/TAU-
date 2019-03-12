@@ -62,18 +62,45 @@ public class FigureDao implements DAO<RPGfigure> {
                 Statement.RETURN_GENERATED_KEYS);
         deleteFigureStmt = connection.prepareStatement("DELETE FROM RPGfigure where id = ?");
         getAllFiguresStmt = connection.prepareStatement("SELECT id, name, hp FROM RPGfigure ORDER BY id");
-        getFigureStmt = connection.prepareStatement("SELECT id, name, hp FROM EPGfigure WHERE id = ?");
+        getFigureStmt = connection.prepareStatement("SELECT id, name, hp FROM RPGfigure WHERE id = ?");
         updateFigureStmt = connection.prepareStatement("UPDATE RPGfigure SET name=?,hp=? WHERE id = ?");
     }
 
     @Override
     public List<RPGfigure> getAllFigures() {
-        return null;
+        List<RPGfigure> figures = new LinkedList<>();
+        try {
+            ResultSet rs = getAllFiguresStmt.executeQuery();
+
+            while (rs.next()) {
+                RPGfigure p = new RPGfigure();
+                p.setId(rs.getInt("id"));
+                p.setName(rs.getString("name"));
+                p.setHP(rs.getInt("hp"));
+                figures.add(p);
+            }
+
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+        return figures;
     }
 
     @Override
     public int addFigure(RPGfigure figure) {
-        return 0;
+        int count = 0;
+        try {
+            addFigureStmt.setString(1, figure.getName());
+            addFigureStmt.setInt(2, figure.getHP());
+            count = addFigureStmt.executeUpdate();
+            ResultSet generatedKeys = addFigureStmt.getGeneratedKeys();
+            if (generatedKeys.next()) {
+                figure.setId(generatedKeys.getLong(1));
+            }
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+        return count;
     }
 
     @Override
