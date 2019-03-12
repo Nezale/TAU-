@@ -113,4 +113,19 @@ public class FigureDaoTest {
         assertThat(figureManager.getAllFigures(), equalTo(expectedDbState));
     }
 
+    @Test()
+    public void checkUpdatingSuccess() throws SQLException {
+        RPGfigure f = expectedDbState.get(3);
+        f.setName("Runic Golem");
+        expectedDbState.set(3, f);
+        assertEquals(1, figureManager.updateFigure(f));
+        assertThat(figureManager.getAllFigures(), equalTo(expectedDbState));
+    }
+
+    @Test(expected = SQLException.class)
+    public void checkUpdatingFailure() throws SQLException {
+        RPGfigure f = new RPGfigure(505050L,"Runic golem",123);
+        assertEquals(1, figureManager.updateFigure(f));
+    }
+
 }
