@@ -90,4 +90,10 @@ public class FigureDaoTest {
         assertThat(figureManager.getAllFigures(), equalTo(expectedDbState));
     }
 
+    @Test
+    public void GetCheck() throws Exception {
+        RPGfigure figure = expectedDbState.get(7);
+        assertEquals(figure, figureManager.getFigure(figure.getId()));
+    }
+
 }

@@ -260,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552383282607" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552383338972" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab02BoardGame/labone" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -283,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FigureDaoTest.AddCheck">
+  <component name="RunManager" selected="JUnit.FigureDaoTest.checkGetting">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,6 +369,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FigureDaoTest.checkGetting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kozyra.tau.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.kozyra.tau.DAO" />
+      <option name="MAIN_CLASS_NAME" value="pl.kozyra.tau.DAO.FigureDaoTest" />
+      <option name="METHOD_NAME" value="checkGetting" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FigureDaoTest.deleteDaoCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labone" />
       <extension name="coverage">
@@ -421,6 +438,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FigureDaoTest.checkGetting" />
         <item itemvalue="JUnit.FigureDaoTest.AddCheck" />
         <item itemvalue="JUnit.FigureDaoTest.deleteDaoCheck" />
         <item itemvalue="JUnit.FigureDaoTest.updateDaoCheck" />
