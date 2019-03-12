@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fffe8dd1-979d-46d9-b72a-553c5cf02285" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/main/java/pl/kozyra/tau/DAO/FigureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/main/java/pl/kozyra/tau/Domain/RPGfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/main/java/pl/kozyra/tau/Domain/RPGfigure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/test/java/pl/kozyra/tau/Domain/FigureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/src/test/java/pl/kozyra/tau/Domain/FigureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/classes/pl/kozyra/tau/DAO/FigureDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/classes/pl/kozyra/tau/DAO/FigureDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/classes/pl/kozyra/tau/Domain/RPGfigure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/classes/pl/kozyra/tau/Domain/RPGfigure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/DAO/FigureDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/Domain/FigureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab03BoardGame/labtwo/target/test-classes/pl/kozyra/tau/Domain/FigureTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
+            <state relative-caret-position="102">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-223">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="17">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,7 +142,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="30" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1915" />
     <option name="height" value="1045" />
   </component>
@@ -146,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,6 +250,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -412,6 +421,7 @@
       <workItem from="1552375961152" duration="144000" />
       <workItem from="1552376802091" duration="296000" />
       <workItem from="1552377910323" duration="2088000" />
+      <workItem from="1552393720350" duration="599000" />
     </task>
     <servers />
   </component>
@@ -448,7 +458,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24032000" />
+    <option name="totallyTimeSpent" value="24631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,10 +470,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="0" y="15" width="1532" height="836" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24362417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24728261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -478,7 +488,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28470254" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2840909" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -487,7 +497,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.10402685" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.10394022" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -540,7 +550,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/kozyra/tau/DAO/FigureDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
+        <state relative-caret-position="102">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -550,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/kozyra/tau/DAO/FigureDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="17">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

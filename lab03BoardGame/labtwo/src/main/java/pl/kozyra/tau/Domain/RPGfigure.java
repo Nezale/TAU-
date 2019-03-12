@@ -8,7 +8,7 @@ public class RPGfigure {
     private String name;
     private int HP;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
@@ -34,7 +34,7 @@ public class RPGfigure {
 
     public RPGfigure(Long id, String name, int HP) {
         this.name = name;
-        this.id = id;
+        this.id = null;
         this.HP = HP;
     }
 
@@ -43,12 +43,22 @@ public class RPGfigure {
     }
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        System.out.print(o.toString() + " rowna sie " + this);
+        if (this == o) {
+            System.out.println(true);
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            System.out.println(false);
+            return false;
+        }
         RPGfigure rpGfigure = (RPGfigure) o;
-        return id == rpGfigure.id &&
+
+        boolean r = id.longValue() == rpGfigure.id.longValue() &&
                 HP == rpGfigure.HP &&
-                Objects.equals(name, rpGfigure.name);
+                name.equals(rpGfigure.name);
+        System.out.print("ostatni warunek" + r);
+        return r;
     }
 
     @Override

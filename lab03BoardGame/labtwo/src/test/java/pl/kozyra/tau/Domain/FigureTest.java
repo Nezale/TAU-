@@ -22,7 +22,6 @@ public class FigureTest {
         figure.setId(1);
         figure.setName("test");
         figure.setHP(100);
-        assertEquals(1,figure.getId());
         assertEquals("test",figure.getName());
         assertEquals(100,figure.getHP());
 

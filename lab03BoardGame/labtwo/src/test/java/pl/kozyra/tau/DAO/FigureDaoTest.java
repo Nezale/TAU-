@@ -91,9 +91,19 @@ public class FigureDaoTest {
     }
 
     @Test
+    public void getAllCheck(){
+        assertEquals(expectedDbState.toString(), figureManager.getAllFigures().toString());
+    }
+
+    @Test
     public void GetCheck() throws Exception {
         RPGfigure figure = expectedDbState.get(7);
         assertEquals(figure, figureManager.getFigure(figure.getId()));
+    }
+
+    @Test(expected = SQLException.class)
+    public void getFailCheck() throws SQLException {
+        assertEquals(1,figureManager.getFigure(100L));
     }
 
     @Test(expected = SQLException.class)

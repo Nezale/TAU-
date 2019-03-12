@@ -117,7 +117,24 @@ public class FigureDao implements DAO<RPGfigure> {
 
     @Override
     public int updateFigure(RPGfigure figure) throws SQLException {
-        return 0;
+
+        int count = 0;
+        try {
+            updateFigureStmt.setString(1, figure.getName());
+            updateFigureStmt.setInt(2, figure.getHP());
+            if (figure.getId() != null) {
+                updateFigureStmt.setLong(3, figure.getId());
+            } else {
+                updateFigureStmt.setLong(3, -1);
+            }
+            count = updateFigureStmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+        if (count <= 0)
+            throw new SQLException("Figure not found");
+        return count;
+
     }
 
     @Override
@@ -137,7 +154,7 @@ public class FigureDao implements DAO<RPGfigure> {
         } catch (SQLException e) {
             throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
         }
-        throw new SQLException("Person with id " + id + " does not exist");
+        throw new SQLException("Figure with id " + id + " does not exist");
     }
 
 }
