@@ -103,7 +103,8 @@ public class FigureDaoTest {
 
     @Test(expected = SQLException.class)
     public void getFailCheck() throws SQLException {
-        assertEquals(1,figureManager.getFigure(100L));
+        RPGfigure figure = expectedDbState.get(8);
+        assertEquals(figure,figureManager.getFigure(8L));
     }
 
     @Test(expected = SQLException.class)

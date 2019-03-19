@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="pl.kozyra.tau.DAO.FigureDaoTest" time="0.078" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="pl.kozyra.tau.DAO.FigureDaoTest" time="0.062" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="pl.kozyra.tau.DAO.FigureDaoTest" name="updateDaoCheck" time="0.016"/>
+  <testcase classname="pl.kozyra.tau.DAO.FigureDaoTest" name="updateDaoCheck" time="0"/>
   <testcase classname="pl.kozyra.tau.DAO.FigureDaoTest" name="createDaoCheck" time="0"/>
   <testcase classname="pl.kozyra.tau.DAO.FigureDaoTest" name="redDaoExceptionCheck" time="0"/>
   <testcase classname="pl.kozyra.tau.DAO.FigureDaoTest" name="deleteDaoCheck" time="0"/>

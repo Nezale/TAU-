@@ -22,7 +22,7 @@ public class FigureDao implements DAO<RPGfigure> {
         setConnection(connection);
     }
 
-    public FigureDao(){
+    public FigureDao() {
 
     }
 
@@ -104,7 +104,7 @@ public class FigureDao implements DAO<RPGfigure> {
     }
 
     @Override
-    public int deleteFigure(RPGfigure figure) throws SQLException   {
+    public int deleteFigure(RPGfigure figure) throws SQLException {
         try {
             deleteFigureStmt.setLong(1, figure.getId());
             return deleteFigureStmt.executeUpdate();
@@ -112,7 +112,6 @@ public class FigureDao implements DAO<RPGfigure> {
             throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
         }
     }
-
 
 
     @Override
@@ -156,5 +155,4 @@ public class FigureDao implements DAO<RPGfigure> {
         }
         throw new SQLException("Figure with id " + id + " does not exist");
     }
-
 }
