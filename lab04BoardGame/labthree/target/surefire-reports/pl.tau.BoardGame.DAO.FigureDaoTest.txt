@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: pl.tau.BoardGame.DAO.FigureDaoTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.702 s <<< FAILURE! - in pl.tau.BoardGame.DAO.FigureDaoTest
+setConnectionCreatesQueriesCheck(pl.tau.BoardGame.DAO.FigureDaoTest)  Time elapsed: 0.021 s  <<< FAILURE!
+org.mockito.exceptions.verification.junit.ArgumentsAreDifferent: 
+
+Argument(s) are different! Wanted:
+connection.prepareStatement(
+    "SELECT id, name, hp FROM Person ORDER BY id"
+);
+-> at pl.tau.BoardGame.DAO.FigureDaoTest.setConnectionCreatesQueriesCheck(FigureDaoTest.java:94)
+Actual invocation has different arguments:
+connection.prepareStatement(
+    "DELETE FROM RPGfigure where id = ?"
+);
+-> at pl.tau.BoardGame.DAO.FigureDao.setConnection(FigureDao.java:82)
+
+	at pl.tau.BoardGame.DAO.FigureDaoTest.setConnectionCreatesQueriesCheck(FigureDaoTest.java:94)
+
+addCheck(pl.tau.BoardGame.DAO.FigureDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at pl.tau.BoardGame.DAO.FigureDaoTest.addCheck(FigureDaoTest.java:109)
+
+getAllCheck(pl.tau.BoardGame.DAO.FigureDaoTest)  Time elapsed: 0.13 s  <<< ERROR!
+java.lang.NullPointerException
+	at pl.tau.BoardGame.DAO.FigureDaoTest.getAllCheck(FigureDaoTest.java:129)
+

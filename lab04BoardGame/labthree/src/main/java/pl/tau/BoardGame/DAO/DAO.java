@@ -12,8 +12,8 @@ public interface DAO<T> {
     public void setConnection(Connection connection) throws SQLException;
     public List<RPGfigure> getAllFigures();
     public int addFigure(RPGfigure figure);
-    public int deleteFigure(RPGfigure figure) throws SQLException;
-    public int updateFigure(RPGfigure figure) throws SQLException;
+//    public int deleteFigure(RPGfigure figure) throws SQLException;
+//    public int updateFigure(RPGfigure figure) throws SQLException;
     public RPGfigure getFigure(long id) throws SQLException;
 
 }

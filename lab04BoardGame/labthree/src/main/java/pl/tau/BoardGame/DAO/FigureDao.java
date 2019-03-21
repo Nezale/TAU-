@@ -15,6 +15,25 @@ public class FigureDao implements DAO<RPGfigure> {
     private PreparedStatement getFigureStmt;
     private PreparedStatement updateFigureStmt;
 
+    public PreparedStatement getAddFigureStmt() {
+        return addFigureStmt;
+    }
+
+    public PreparedStatement getGetAllFiguresStmt() {
+        return getAllFiguresStmt;
+    }
+
+    public PreparedStatement getDeleteFigureStmt() {
+        return deleteFigureStmt;
+    }
+
+    public PreparedStatement getGetFigureStmt() {
+        return getFigureStmt;
+    }
+
+    public PreparedStatement getUpdateFigureStmt() {
+        return updateFigureStmt;
+    }
 
     public FigureDao(Connection connection) throws SQLException {
         this.connection = connection;
@@ -79,11 +98,12 @@ public class FigureDao implements DAO<RPGfigure> {
                 p.setHP(rs.getInt("hp"));
                 figures.add(p);
             }
-
-        } catch (SQLException e) {
-            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+            return figures;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
-        return figures;
+
     }
 
     @Override
@@ -103,38 +123,38 @@ public class FigureDao implements DAO<RPGfigure> {
         return count;
     }
 
-    @Override
-    public int deleteFigure(RPGfigure figure) throws SQLException {
-        try {
-            deleteFigureStmt.setLong(1, figure.getId());
-            return deleteFigureStmt.executeUpdate();
-        } catch (SQLException e) {
-            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
-        }
-    }
+//    @Override
+//    public int deleteFigure(RPGfigure figure) throws SQLException {
+//        try {
+//            deleteFigureStmt.setLong(1, figure.getId());
+//            return deleteFigureStmt.executeUpdate();
+//        } catch (SQLException e) {
+//            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+//        }
+//    }
 
 
-    @Override
-    public int updateFigure(RPGfigure figure) throws SQLException {
-
-        int count = 0;
-        try {
-            updateFigureStmt.setString(1, figure.getName());
-            updateFigureStmt.setInt(2, figure.getHP());
-            if (figure.getId() != null) {
-                updateFigureStmt.setLong(3, figure.getId());
-            } else {
-                updateFigureStmt.setLong(3, -1);
-            }
-            count = updateFigureStmt.executeUpdate();
-        } catch (SQLException e) {
-            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
-        }
-        if (count <= 0)
-            throw new SQLException("Figure not found");
-        return count;
-
-    }
+//    @Override
+//    public int updateFigure(RPGfigure figure) throws SQLException {
+//
+//        int count = 0;
+//        try {
+//            updateFigureStmt.setString(1, figure.getName());
+//            updateFigureStmt.setInt(2, figure.getHP());
+//            if (figure.getId() != null) {
+//                updateFigureStmt.setLong(3, figure.getId());
+//            } else {
+//                updateFigureStmt.setLong(3, -1);
+//            }
+//            count = updateFigureStmt.executeUpdate();
+//        } catch (SQLException e) {
+//            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+//        }
+//        if (count <= 0)
+//            throw new SQLException("Figure not found");
+//        return count;
+//
+//    }
 
     @Override
     public RPGfigure getFigure(long id) throws SQLException {
