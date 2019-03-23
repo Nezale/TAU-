@@ -1,7 +1,6 @@
 package pl.tau.BoardGame.Domain;
 
 public class RPGfigure {
-
     private Long id;
     private String name;
     private int HP;
@@ -67,4 +66,5 @@ public class RPGfigure {
                 ", HP=" + HP +
                 '}';
     }
+
 }
