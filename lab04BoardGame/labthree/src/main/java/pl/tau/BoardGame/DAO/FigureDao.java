@@ -12,7 +12,7 @@ public interface FigureDao {
     public List<RPGfigure> getAllFigures();
 
     public int addFigure(RPGfigure figure) throws SQLException;
-    public int deleteRPGfigure(long id) throws  SQLException;
-    // public int updatePerson(Person person) throws SQLException;
+    public int deleteRPGfigure(RPGfigure figure);
+     public int updateRPGfigure(RPGfigure figure) throws SQLException;
     public RPGfigure getFigure(long id) throws SQLException;
 }

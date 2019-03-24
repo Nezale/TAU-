@@ -2,60 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77046720-16c1-4d00-ae94-7018232855d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labthree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Domain/RPGfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/tau/BoardGame/Dao/FigureDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/tau/BoardGame/Dao/FigureDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pl/tau/BoardGame/Domain/RPGfigure.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/labthree.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest$AbstractResultSet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/libraries/Maven__junit_junit_4_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/labthree.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/src/main/java/pl/tau/BoardGame/DAO/DAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/src/main/java/pl/tau/BoardGame/Domain/RPGfigure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/src/test/java/pl/tau/BoardGame/DAO/FigureDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/src/test/java/pl/tau/BoardGame/Domain/FigureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/classes/pl/tau/BoardGame/DAO/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/classes/pl/tau/BoardGame/DAO/FigureDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/classes/pl/tau/BoardGame/Domain/RPGfigure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/surefire-reports/TEST-pl.tau.BoardGame.DAO.FigureDaoTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/surefire-reports/TEST-pl.tau.BoardGame.Domain.FigureTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/surefire-reports/pl.tau.BoardGame.DAO.FigureDaoTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/surefire-reports/pl.tau.BoardGame.Domain.FigureTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/test-classes/pl/tau/BoardGame/DAO/FigureDaoTest$AbstractResultSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/test-classes/pl/tau/BoardGame/DAO/FigureDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab04BoardGame/labthree/target/test-classes/pl/tau/BoardGame/Domain/FigureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/tau/BoardGame/DAO/FigureDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/tau/BoardGame/DAO/FigureDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/tau/BoardGame/DAO/FigureDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/tau/BoardGame/DAO/FigureDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest$AbstractResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest$AbstractResultSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,19 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+            <state relative-caret-position="238">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,11 +70,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="166" selection-start-line="166" selection-end-line="166" />
+            <state relative-caret-position="503">
+              <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Java/src.zip!/java/net/URLClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5508">
+              <caret line="380" selection-start-line="380" selection-end-line="380" />
             </state>
           </provider>
         </entry>
@@ -152,9 +106,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Domain/RPGfigure.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" />
       </list>
     </option>
   </component>
@@ -177,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -264,12 +217,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553354041275" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553464747281" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -286,39 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FigureDaoImplTest.getRPGfigurecheck">
-    <configuration name="FigureDaoImplTest.checkAddingInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labthree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.tau.BoardGame.DaoTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
-      <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
-      <option name="METHOD_NAME" value="checkAddingInOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FigureDaoImplTest.checkDeletingRPGfigure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labthree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.tau.BoardGame.DaoTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
-      <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
-      <option name="METHOD_NAME" value="checkDeletingRPGfigure" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FigureDaoImplTest.deleteRPGfigureCheck">
     <configuration name="FigureDaoImplTest.checkGettingRPGfigure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labthree" />
       <extension name="coverage">
@@ -330,6 +252,22 @@
       <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
       <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
       <option name="METHOD_NAME" value="checkGettingRPGfigure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FigureDaoImplTest.deleteRPGfigureCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labthree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.tau.BoardGame.DaoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
+      <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
+      <option name="METHOD_NAME" value="deleteRPGfigureCheck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -367,13 +305,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FigureDaoImplTest.updateRPGfigureCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labthree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.tau.BoardGame.DaoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
+      <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
+      <option name="METHOD_NAME" value="updateRPGfigureCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FigureDaoImplTest.deleteRPGfigureCheck" />
+        <item itemvalue="JUnit.FigureDaoImplTest.updateRPGfigureCheck" />
+        <item itemvalue="JUnit.FigureDaoImplTest.getAllCheck" />
         <item itemvalue="JUnit.FigureDaoImplTest.getRPGfigurecheck" />
         <item itemvalue="JUnit.FigureDaoImplTest.checkGettingRPGfigure" />
-        <item itemvalue="JUnit.FigureDaoImplTest.checkDeletingRPGfigure" />
-        <item itemvalue="JUnit.FigureDaoImplTest.getAllCheck" />
-        <item itemvalue="JUnit.FigureDaoImplTest.checkAddingInOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -389,46 +343,51 @@
       <updated>1553275848853</updated>
       <workItem from="1553275852047" duration="5897000" />
       <workItem from="1553353864548" duration="202000" />
+      <workItem from="1553354131022" duration="7622000" />
+      <workItem from="1553426078956" duration="7302000" />
+      <workItem from="1553452214903" duration="134000" />
+      <workItem from="1553464064644" duration="555000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FigureDaoImplTest_getAllCheck - 2019.03.22 at 19h 43m 24s.xml">
-      <configuration name="FigureDaoImplTest.getAllCheck" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_updateRPGfigureCheck - 2019.03.24 at 14h 09m 10s.xml">
+      <configuration name="FigureDaoImplTest.updateRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkGettingRPGfigure - 2019.03.22 at 19h 46m 17s.xml">
-      <configuration name="FigureDaoImplTest.checkGettingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_updateRPGfigureCheck - 2019.03.24 at 14h 09m 24s.xml">
+      <configuration name="FigureDaoImplTest.updateRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkGettingRPGfigure - 2019.03.22 at 19h 46m 52s.xml">
-      <configuration name="FigureDaoImplTest.checkGettingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_updateRPGfigureCheck - 2019.03.24 at 14h 14m 52s.xml">
+      <configuration name="FigureDaoImplTest.updateRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkDeletingRPGfigure - 2019.03.22 at 20h 03m 05s.xml">
-      <configuration name="FigureDaoImplTest.checkDeletingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_updateRPGfigureCheck - 2019.03.24 at 22h 51m 15s.xml">
+      <configuration name="FigureDaoImplTest.updateRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkDeletingRPGfigure - 2019.03.22 at 20h 03m 24s.xml">
-      <configuration name="FigureDaoImplTest.checkDeletingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_updateRPGfigureCheck - 2019.03.24 at 22h 51m 28s.xml">
+      <configuration name="FigureDaoImplTest.updateRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkDeletingRPGfigure - 2019.03.22 at 20h 03m 52s.xml">
-      <configuration name="FigureDaoImplTest.checkDeletingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_deleteRPGfigureCheck - 2019.03.24 at 22h 53m 16s.xml">
+      <configuration name="FigureDaoImplTest.deleteRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkDeletingRPGfigure - 2019.03.22 at 20h 04m 04s.xml">
-      <configuration name="FigureDaoImplTest.checkDeletingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_deleteRPGfigureCheck - 2019.03.24 at 22h 54m 35s.xml">
+      <configuration name="FigureDaoImplTest.deleteRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkDeletingRPGfigure - 2019.03.22 at 20h 04m 20s.xml">
-      <configuration name="FigureDaoImplTest.checkDeletingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_deleteRPGfigureCheck - 2019.03.24 at 22h 55m 29s.xml">
+      <configuration name="FigureDaoImplTest.deleteRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_checkGettingRPGfigure - 2019.03.23 at 16h 11m 21s.xml">
-      <configuration name="FigureDaoImplTest.checkGettingRPGfigure" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_deleteRPGfigureCheck - 2019.03.24 at 22h 56m 20s.xml">
+      <configuration name="FigureDaoImplTest.deleteRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FigureDaoImplTest_getRPGfigurecheck - 2019.03.23 at 16h 12m 07s.xml">
-      <configuration name="FigureDaoImplTest.getRPGfigurecheck" configurationId="JUnit" />
+    <history-entry file="FigureDaoImplTest_deleteRPGfigureCheck - 2019.03.24 at 22h 56m 56s.xml">
+      <configuration name="FigureDaoImplTest.deleteRPGfigureCheck" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6099000" />
+    <option name="totallyTimeSpent" value="21712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,13 +399,13 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="11" />
@@ -467,6 +426,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -476,23 +444,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java">
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        <state relative-caret-position="244">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#697#891#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/org/junit/internal/runners/statements/RunBefores.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="376">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Java/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="423" selection-start-line="423" selection-end-line="423" />
         </state>
       </provider>
     </entry>
@@ -517,10 +532,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://F:/Java/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5508">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="503">
+          <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

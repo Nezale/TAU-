@@ -8,6 +8,7 @@ import org.mockito.InOrder;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
+import pl.tau.BoardGame.Dao.FigureDao;
 import pl.tau.BoardGame.Dao.FigureDaoImpl;
 import pl.tau.BoardGame.Domain.RPGfigure;
 
@@ -48,6 +49,7 @@ public class FigureDaoImplTest {
         public String getString(String columnLabel) throws SQLException {
             return initialDatabaseState.get(i-1).getName();
         }
+
         @Override
         public boolean next() throws SQLException {
             i++;
@@ -66,6 +68,10 @@ public class FigureDaoImplTest {
     PreparedStatement insertStatementMock;
     @Mock
     PreparedStatement getStatementMock;
+    @Mock
+    PreparedStatement deleteStatementMock;
+    @Mock
+    PreparedStatement updateStatementMock;
 
 
     @Before
@@ -82,6 +88,8 @@ public class FigureDaoImplTest {
         when(connection.prepareStatement("SELECT id, name, HP FROM RPGfigure ORDER BY id")).thenReturn(selectStatementMock);
         when(connection.prepareStatement("INSERT INTO RPGfigure (name, HP) VALUES (?, ?)", Statement.RETURN_GENERATED_KEYS)).thenReturn(insertStatementMock);
         when(connection.prepareStatement("SELECT id, name, HP FROM RPGfigure WHERE id = ?")).thenReturn(getStatementMock);
+        when(connection.prepareStatement("DELETE FROM RPGfigure WHERE id = ?")).thenReturn(deleteStatementMock);
+        when(connection.prepareStatement("UPDATE RPGfigure SET name = ?, HP = ? WHERE id = ?")).thenReturn(updateStatementMock);
     }
 
     @Test
@@ -164,7 +172,38 @@ public class FigureDaoImplTest {
 
     }
 
+    @Test
+    public void updateRPGfigureCheck() throws SQLException {
+        InOrder inOrder = inOrder(updateStatementMock);
+        when(updateStatementMock.executeUpdate()).thenReturn(1);
 
+        FigureDaoImpl dao = new FigureDaoImpl();
+        dao.setConnection(connection);
+        RPGfigure figure = initialDatabaseState.get(2);
+        figure.setName("skeleton");
+        figure.setHP(350);
+        dao.updateRPGfigure(figure);
+
+        inOrder.verify(updateStatementMock, times(1)).setString(1, "skeleton");
+        inOrder.verify(updateStatementMock, times(1)).setInt(2, 350);
+        inOrder.verify(updateStatementMock, times(1)).setLong(3, 2);
+        inOrder.verify(updateStatementMock).executeUpdate();
+    }
+
+    @Test
+    public void deleteRPGfigureCheck() throws Exception {
+        InOrder inOrder = inOrder(deleteStatementMock);
+        when(deleteStatementMock.executeUpdate()).thenReturn(1);
+
+        FigureDaoImpl dao = new FigureDaoImpl();
+        dao.setConnection(connection);
+        RPGfigure figure = initialDatabaseState.get(2);
+        dao.deleteRPGfigure(figure);
+
+        inOrder.verify(deleteStatementMock, times(1)).setLong(1, 2);
+        inOrder.verify(deleteStatementMock).executeUpdate();
+
+    }
 
 
 }

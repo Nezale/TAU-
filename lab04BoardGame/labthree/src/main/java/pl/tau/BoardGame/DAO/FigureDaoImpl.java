@@ -11,6 +11,7 @@ public class FigureDaoImpl implements FigureDao {
     public PreparedStatement preparedStatementInsert;
     public PreparedStatement preparedStatementGetFigure;
     public PreparedStatement preparedStatementDeleteFigure;
+    public PreparedStatement preparedStatementUpdateFigure;
 
     Connection connection;
     @Override
@@ -29,8 +30,9 @@ public class FigureDaoImpl implements FigureDao {
         preparedStatementGetFigure = connection.prepareStatement(
                 "SELECT id, name, HP FROM RPGfigure WHERE id = ?");
         preparedStatementDeleteFigure = connection.prepareStatement(
-                "DELETE FROM RPGFIGURE WHERE id = ?"
-        );
+                "DELETE FROM RPGfigure WHERE id = ?");
+        preparedStatementUpdateFigure = connection.prepareStatement(
+                "UPDATE RPGfigure SET name = ?, HP = ? WHERE id = ?");
     }
 
     @Override
@@ -81,12 +83,33 @@ public class FigureDaoImpl implements FigureDao {
     }
 
     @Override
-    public int deleteRPGfigure(long id) throws SQLException {
+    public int deleteRPGfigure(RPGfigure figure){
         try {
-            preparedStatementDeleteFigure.setLong(1, id);
-            return preparedStatementDeleteFigure.executeUpdate();
+            preparedStatementDeleteFigure.setLong(1, figure.getId());
+            int r = preparedStatementDeleteFigure.executeUpdate();
+            return r;
         } catch (SQLException e) {
             throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
         }
+    }
+
+    @Override
+    public int updateRPGfigure(RPGfigure figure) throws SQLException {
+        int count = 0;
+        try {
+            preparedStatementUpdateFigure.setString(1, figure.getName());
+            preparedStatementUpdateFigure.setInt(2, figure.getHP());
+            if (figure.getId() != null) {
+                preparedStatementUpdateFigure.setLong(3, figure.getId());
+            } else {
+                preparedStatementUpdateFigure.setLong(3, -1);
+            }
+            count = preparedStatementUpdateFigure.executeUpdate();
+        } catch (SQLException e) {
+            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        }
+        if (count <= 0)
+            throw new SQLException("Figure not found");
+        return count;
     }
 }
