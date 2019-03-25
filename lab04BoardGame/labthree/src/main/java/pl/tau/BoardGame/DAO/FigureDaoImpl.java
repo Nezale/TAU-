@@ -59,6 +59,9 @@ public class FigureDaoImpl implements FigureDao {
         preparedStatementInsert.setString(1, figure.getName());
         preparedStatementInsert.setInt(2, figure.getHP());
         int r = preparedStatementInsert.executeUpdate();
+        if (r <= 0) {
+            throw new SQLException();
+        }
         return r;
     }
 
@@ -83,14 +86,13 @@ public class FigureDaoImpl implements FigureDao {
     }
 
     @Override
-    public int deleteRPGfigure(RPGfigure figure){
-        try {
+    public int deleteRPGfigure(RPGfigure figure) throws SQLException{
             preparedStatementDeleteFigure.setLong(1, figure.getId());
-            int r = preparedStatementDeleteFigure.executeUpdate();
-            return r;
-        } catch (SQLException e) {
-            throw new IllegalStateException(e.getMessage() + "\n" + e.getStackTrace().toString());
+        int r = preparedStatementDeleteFigure.executeUpdate();
+        if (r <= 0) {
+            throw new SQLException();
         }
+        return r;
     }
 
     @Override

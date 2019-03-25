@@ -148,6 +148,23 @@ public class FigureDaoImplTest {
         inorder.verify(insertStatementMock).executeUpdate();
     }
 
+    @Test(expected = SQLException.class)
+    public void addInOrderExceptionCheck() throws Exception {
+        InOrder inorder = inOrder(insertStatementMock);
+        when(insertStatementMock.executeUpdate()).thenReturn(0);
+
+        FigureDaoImpl dao = new FigureDaoImpl();
+        dao.setConnection(connection);
+        RPGfigure figure = new RPGfigure();
+        figure.setName("fooFigure");
+        figure.setHP(4080);
+        dao.addFigure(figure);
+
+        inorder.verify(insertStatementMock, times(1)).setString(1, "fooFigure");
+        inorder.verify(insertStatementMock, times(1)).setInt(2, 4080);
+        inorder.verify(insertStatementMock).executeUpdate();
+    }
+
     @Test
     public void getRPGfigurecheck() throws Exception {
         AbstractResultSet mockedResultSet = mock(AbstractResultSet.class);
@@ -172,6 +189,21 @@ public class FigureDaoImplTest {
 
     }
 
+    @Test(expected = SQLException.class)
+    public void getRPGfigureExceptionCheck() throws SQLException {
+        AbstractResultSet mockedResultSet = mock(AbstractResultSet.class);
+        when(mockedResultSet.next()).thenReturn(false);
+        when(getStatementMock.executeQuery()).thenReturn(mockedResultSet);
+
+
+        FigureDaoImpl dao = new FigureDaoImpl();
+        dao.setConnection(connection);
+        dao.getFigure(3);
+
+        verify(getStatementMock).setLong(1, 3);
+        verify(getStatementMock).executeQuery();
+    }
+
     @Test
     public void updateRPGfigureCheck() throws SQLException {
         InOrder inOrder = inOrder(updateStatementMock);
@@ -190,6 +222,24 @@ public class FigureDaoImplTest {
         inOrder.verify(updateStatementMock).executeUpdate();
     }
 
+    @Test(expected = SQLException.class)
+    public void updateExceptionCheck() throws SQLException {
+        when(updateStatementMock.executeUpdate()).thenReturn(0);
+
+        FigureDaoImpl dao = new FigureDaoImpl();
+        dao.setConnection(connection);
+        RPGfigure figure = initialDatabaseState.get(6);
+        figure.setName("fooFigure");
+        figure.setHP(2500);
+        dao.updateRPGfigure(figure);
+
+        verify(updateStatementMock).setString(1,"fooFigure");
+        verify(updateStatementMock).setInt(2, 2500);
+        verify(updateStatementMock).setLong(3, 6);
+        verify(updateStatementMock).executeUpdate();
+
+    }
+
     @Test
     public void deleteRPGfigureCheck() throws Exception {
         InOrder inOrder = inOrder(deleteStatementMock);
@@ -203,6 +253,20 @@ public class FigureDaoImplTest {
         inOrder.verify(deleteStatementMock, times(1)).setLong(1, 2);
         inOrder.verify(deleteStatementMock).executeUpdate();
 
+    }
+
+    @Test(expected = SQLException.class)
+    public void deleteExceptionCheck() throws SQLException {
+        InOrder inOrder = inOrder(deleteStatementMock);
+        when(deleteStatementMock.executeUpdate()).thenReturn(0);
+
+        FigureDaoImpl dao = new FigureDaoImpl();
+        dao.setConnection(connection);
+        RPGfigure figure = initialDatabaseState.get(5);
+        dao.deleteRPGfigure(figure);
+
+        inOrder.verify(deleteStatementMock).setLong(1,5);
+        inOrder.verify(deleteStatementMock).executeUpdate();
     }
 
 
