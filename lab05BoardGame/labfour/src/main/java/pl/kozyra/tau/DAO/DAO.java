@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public interface DAO<T> {
 
-    public Optional<T> get (Long id) throws IllegalArgumentException;
+    public Optional<RPGfigure> get (Long id) throws IllegalArgumentException;
     public List<T> getAll();
     public void delete(T o) throws IllegalArgumentException;
     public void update(T o) throws  IllegalArgumentException;

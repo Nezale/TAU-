@@ -5,7 +5,6 @@ import pl.kozyra.tau.Domain.RPGfigure;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class FigureDao implements DAO<RPGfigure> {
 

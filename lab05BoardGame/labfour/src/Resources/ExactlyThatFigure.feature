@@ -1,5 +1,5 @@
 Feature: Check if figure is skeleton or not
-  Someone want to know what exactly that figure is
+  Someone wants to know what exactly that figure is
 
   Scenario Outline: It is skeleton or not
     Given This is "<figure>"

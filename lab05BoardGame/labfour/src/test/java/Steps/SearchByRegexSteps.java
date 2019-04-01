@@ -13,7 +13,6 @@ public class SearchByRegexSteps implements En {
 
     private FigureDao dao;
     private List <RPGfigure> figures;
-    private Random random;
 
     public SearchByRegexSteps() {
         Given("^Someone is in front of the search bar$", () -> {
