@@ -103,17 +103,16 @@ public class FigureDaoTest {
 
     @Test(expected = SQLException.class)
     public void getFailCheck() throws SQLException {
-        RPGfigure figure = expectedDbState.get(8);
-        assertEquals(figure,figureManager.getFigure(8L));
+        figureManager.getFigure(13L);
     }
 
     @Test(expected = SQLException.class)
     public void DeleteFailCheck() throws SQLException {
-        RPGfigure f = expectedDbState.get(3);
-        expectedDbState.remove(f);
-        assertEquals(1, figureManager.deleteFigure(f));
-        assertThat(figureManager.getAllFigures(), equalTo(expectedDbState));
-        assertNull(figureManager.getFigure(f.getId()));
+        RPGfigure f = new RPGfigure();
+        f.setHP(213);
+        f.setName("asfds");
+        f.setId(15L);
+        figureManager.deleteFigure(f);
     }
 
     @Test()

@@ -32,9 +32,10 @@ public class SearchByRegexSteps implements En {
 
         });
         When("^Someone put \"([^\"]*)\" phrase into the search bar$", (String regex) -> {
-            Assert.assertEquals(10, dao.getByRegex("gol").size());
+            figures = dao.getByRegex(regex);
         });
         Then("^Someone finds the figure he wanted to find and he/she is very happy :\\)$", () -> {
+            Assert.assertEquals(10, figures.size());
         });
     }
 }
