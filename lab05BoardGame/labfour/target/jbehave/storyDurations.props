@@ -1,0 +1,7 @@
+#org.jbehave.core.embedder.StoryManager
+#Tue Apr 02 10:02:16 CEST 2019
+Stories/DeleteFromTheList.story=0
+threads=1
+total=0
+Stories/SearchByRegex.story=0
+threadAverage=0
