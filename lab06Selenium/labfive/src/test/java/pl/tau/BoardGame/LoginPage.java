@@ -32,8 +32,8 @@ public class LoginPage {
         loginButton.click();
     }
     public void loginSuccess() {
-        loginInput.sendKeys("s15327@pjwstk.edu.pl");
-        passwordInput.sendKeys("Mario456");
+        loginInput.sendKeys("xxx");
+        passwordInput.sendKeys("xxx");
         loginButton.click();
     }
     public WebElement getLoginButton() {
