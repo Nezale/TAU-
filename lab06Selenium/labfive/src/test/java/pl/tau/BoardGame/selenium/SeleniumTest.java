@@ -7,6 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
 import pl.tau.BoardGame.LoginPage;
+import pl.tau.BoardGame.RegisterPage;
 import pl.tau.BoardGame.StartPage;
 
 import java.io.File;
@@ -29,13 +30,13 @@ public class SeleniumTest {
         driver = new ChromeDriver();
         driver.manage().timeouts()
                 .implicitlyWait(1, TimeUnit.MICROSECONDS);
-        driver.manage().window().setSize(new Dimension(300, 700));
     }
 
     @Before
     public void before() {
         startPage = new StartPage(driver);
         loginPage = new LoginPage(driver);
+        driver.manage().window().fullscreen();
 
     }
 
@@ -66,17 +67,31 @@ public class SeleniumTest {
     }
 
     @Test
+    public void loginIncorrectSmall() {
+        driver.manage().window().setSize(new Dimension(300, 700));
+        loginPage.open();
+        loginPage.login();
+        assertFalse(loginPage.isLoginFailed());
+    }
+
+    @Test
     public void loginIncorrect() {
         loginPage.open();
         loginPage.login();
-        assertFalse(loginPage.isLoginSuccessful());
+        assertFalse(loginPage.isLoginFailed());
     }
 
     @Test
     public void loginSuccessfull(){
         loginPage.open();
         loginPage.loginSuccess();
-        assertEquals("http://automationpractice.com/index.php?controller=my-account", loginPage.loginSuccessfull());
+        assertEquals("http://automationpractice.com/index.php?controller=my-account", loginPage.isLoginSuccessfull());
+    }
+
+    @Test
+    public void registerUser() throws IOException {
+
+        assertTrue(RegisterPage.registerpage());
     }
 
     @AfterClass

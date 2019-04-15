@@ -10,7 +10,7 @@ public class LoginPage {
     private final WebDriver driver;
 
     @FindBy(id = "email")
-    WebElement loginInput;
+    WebElement emailInput;
 
     @FindBy(css = "#passwd")
     WebElement passwordInput;
@@ -31,9 +31,10 @@ public class LoginPage {
     public void login() {
         loginButton.click();
     }
+
     public void loginSuccess() {
-        loginInput.sendKeys("xxx");
-        passwordInput.sendKeys("xxx");
+        emailInput.sendKeys("s15327@pjwstk.edu.pl");
+        passwordInput.sendKeys("Mario456");
         loginButton.click();
     }
     public WebElement getLoginButton() {
@@ -41,18 +42,18 @@ public class LoginPage {
     }
 
     public WebElement getLoginInput() {
-        return loginInput;
+        return emailInput;
     }
 
     public WebElement getPasswordInput() {
         return passwordInput;
     }
 
-    public boolean isLoginSuccessful() {
+    public boolean isLoginFailed() {
         return driver.findElement(By.xpath("//*[@id=\"center_column\"]/div[1]/ol/li")) == null;
     }
 
-    public String loginSuccessfull(){
+    public String isLoginSuccessfull(){
         return driver.getCurrentUrl();
     }
 }
