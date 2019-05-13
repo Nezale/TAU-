@@ -35,7 +35,8 @@ public class FigureManagerImpl implements FigureManager {
 
     @Override
     public List<Figure> findAllFigure() {
-        return null;
+        return sessionFactory.getCurrentSession().getNamedQuery("figure.all")
+                .list();
     }
 
     @Override
