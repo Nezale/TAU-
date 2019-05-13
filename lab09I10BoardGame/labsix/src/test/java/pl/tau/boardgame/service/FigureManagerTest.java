@@ -16,6 +16,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.annotation.Commit;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -25,12 +26,12 @@ import pl.tau.boardgame.domain.Owner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:/beans.xml"})
-//@Rollback
+@Rollback
 @Commit
 @Transactional(transactionManager = "txManager")
 public class FigureManagerTest {
     @Autowired
-    FigureManager libraryManager;
+    FigureManager figureManager;
 
     List<Long> figureIds;
     private List<Long> ownerIds;
@@ -38,15 +39,15 @@ public class FigureManagerTest {
     @Before
     public void setup() {
         figureIds = new LinkedList<>();
-        figureIds.add(libraryManager.addFigure(new Figure("skeleton", 500)));
-        figureIds.add(libraryManager.addFigure(new Figure("ragnaros", 200)));
-        figureIds.add(libraryManager.addFigure(new Figure("gnar", 300)));
+        figureIds.add(figureManager.addFigure(new Figure("skeleton", 500)));
+        figureIds.add(figureManager.addFigure(new Figure("ragnaros", 200)));
+        figureIds.add(figureManager.addFigure(new Figure("gnar", 300)));
 
-        Figure figure = libraryManager.findFigureById(figureIds.get(0));
-        Figure figure1 = libraryManager.findFigureById(figureIds.get(1));
+        Figure figure = figureManager.findFigureById(figureIds.get(0));
+        Figure figure1 = figureManager.findFigureById(figureIds.get(1));
         ownerIds = new LinkedList<>();
-        ownerIds.add(libraryManager.addOnwer(new Owner("Adrzej", new LinkedList<Figure>(Arrays.asList(figure)))));
-        ownerIds.add(libraryManager.addOnwer(new Owner("Konstanty", new LinkedList<Figure>(Arrays.asList(figure1)))));
+        ownerIds.add(figureManager.addOnwer(new Owner("Adrzej", new LinkedList<Figure>(Arrays.asList(figure)))));
+        ownerIds.add(figureManager.addOnwer(new Owner("Konstanty", new LinkedList<Figure>(Arrays.asList(figure1)))));
     }
 
     @Test
@@ -57,10 +58,28 @@ public class FigureManagerTest {
     @Test
     public void getAllFiguresTest() {
         List<Long> foundIds = new LinkedList<>();
-        for (Figure figure : libraryManager.findAllFigure()) {
+        for (Figure figure : figureManager.findAllFigure()) {
             if (figureIds.contains(figure.getId())) foundIds.add(figure.getId());
         }
         assertEquals(figureIds.size(), foundIds.size());
+    }
+
+    @Test
+    public void deleteFigureTest() {
+        int prevSize = figureManager.findAllFigure().size();
+        Figure figure = figureManager.findFigureById(figureIds.get(0));
+        assertNotNull(figure);
+        figureManager.deleteFigure(figure);
+        assertNull(figureManager.findFigureById(figureIds.get(0)));
+        assertEquals(prevSize - 1, figureManager.findAllFigure().size());
+    }
+
+    @Test()
+    public void updateFigureTest() {
+        Figure f = figureManager.findFigureById(1L);
+        f.setName("rumcajs");
+        figureManager.updateFigure(f);
+        Assert.assertEquals("rumcajs", figureManager.findFigureById(1L).getName());
     }
 
 

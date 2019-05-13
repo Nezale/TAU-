@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="966193a7-2114-4acd-b35f-5676a5a5b1c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/log_of_everything.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_of_everything.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_of_everything.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="231">
+              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
               <folding>
                 <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#478#479#0" expanded="true" />
@@ -84,6 +85,8 @@
                 <element signature="e#598#599#0" expanded="true" />
                 <element signature="e#534#535#0" expanded="true" />
                 <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#1719#1720#0" expanded="true" />
                 <element signature="e#773#774#0" expanded="true" />
                 <element signature="e#800#801#0" expanded="true" />
                 <element signature="e#855#856#0" expanded="true" />
@@ -104,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+            <state relative-caret-position="221">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding>
                 <element signature="e#1921#1922#0" expanded="true" />
                 <element signature="e#1968#1969#0" expanded="true" />
@@ -132,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/domain/Figure.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/domain/Owner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" />
       </list>
     </option>
   </component>
@@ -341,44 +344,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557781246736</updated>
-      <workItem from="1557781249622" duration="2354000" />
+      <workItem from="1557781249622" duration="3488000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 06m 46s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 07m 40s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 09m 24s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 12m 13s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 14m 57s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 15m 51s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 17m 23s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryManagerTest - 2019.05.13 at 23h 18m 03s.xml">
-      <configuration name="LibraryManagerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FigureManagerTest - 2019.05.13 at 23h 35m 57s.xml">
       <configuration name="FigureManagerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FigureManagerTest - 2019.05.13 at 23h 39m 40s.xml">
       <configuration name="FigureManagerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 40m 39s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 44m 18s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 45m 44s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 47m 01s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 48m 19s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 51m 38s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 59m 11s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 59m 23s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2354000" />
+    <option name="totallyTimeSpent" value="3488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -390,11 +393,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Spring" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -402,7 +405,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,6 +430,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_of_everything.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -475,24 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log_of_everything.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding>
-            <element signature="e#1921#1922#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="231">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
             <element signature="e#441#442#0" expanded="true" />
             <element signature="e#478#479#0" expanded="true" />
@@ -500,6 +492,8 @@
             <element signature="e#598#599#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
             <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
             <element signature="e#773#774#0" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />
             <element signature="e#855#856#0" expanded="true" />
@@ -508,6 +502,17 @@
             <element signature="e#985#986#0" expanded="true" />
             <element signature="e#1042#1043#0" expanded="true" />
             <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
           </folding>
         </state>
       </provider>

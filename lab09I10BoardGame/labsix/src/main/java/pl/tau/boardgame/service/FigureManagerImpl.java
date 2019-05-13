@@ -41,17 +41,19 @@ public class FigureManagerImpl implements FigureManager {
 
     @Override
     public Figure findFigureById(Long id) {
-        return null;
+        return (Figure) sessionFactory.getCurrentSession().get(Figure.class, id);
     }
 
     @Override
     public void deleteFigure(Figure figure) {
-
+        figure = (Figure) sessionFactory.getCurrentSession().get(Figure.class,
+                figure.getId());
+        sessionFactory.getCurrentSession().delete(figure);
     }
 
     @Override
     public void updateFigure(Figure figure) {
-
+        sessionFactory.getCurrentSession().update(figure);
     }
 
     @Override
