@@ -19,7 +19,7 @@ public interface FigureManager {
 
     List<Figure> findFigureByName(String figureName);
 
-    Long addOnwer(Owner owner);
+    Long addOwner(Owner owner);
 
     List<Figure> getAllFiguresForOwner(Owner owner);
 

@@ -65,7 +65,7 @@ public class FigureManagerImpl implements FigureManager {
     }
 
     @Override
-    public Long addOnwer(Owner owner) {
+    public Long addOwner(Owner owner) {
         if (owner.getId() != null)
             throw new IllegalArgumentException("the owner ID should be null if added to database");
         sessionFactory.getCurrentSession().persist(owner);

@@ -46,8 +46,8 @@ public class FigureManagerTest {
         Figure figure = figureManager.findFigureById(figureIds.get(0));
         Figure figure1 = figureManager.findFigureById(figureIds.get(1));
         ownerIds = new LinkedList<>();
-        ownerIds.add(figureManager.addOnwer(new Owner("Andrzej", new LinkedList<Figure>(Arrays.asList(figure)))));
-        ownerIds.add(figureManager.addOnwer(new Owner("Konstanty", new LinkedList<Figure>(Arrays.asList(figure1)))));
+        ownerIds.add(figureManager.addOwner(new Owner("Andrzej", new LinkedList<Figure>(Arrays.asList(figure)))));
+        ownerIds.add(figureManager.addOwner(new Owner("Konstanty", new LinkedList<Figure>(Arrays.asList(figure1)))));
     }
 
     @Test
