@@ -46,13 +46,18 @@ public class FigureManagerTest {
         Figure figure = figureManager.findFigureById(figureIds.get(0));
         Figure figure1 = figureManager.findFigureById(figureIds.get(1));
         ownerIds = new LinkedList<>();
-        ownerIds.add(figureManager.addOnwer(new Owner("Adrzej", new LinkedList<Figure>(Arrays.asList(figure)))));
+        ownerIds.add(figureManager.addOnwer(new Owner("Andrzej", new LinkedList<Figure>(Arrays.asList(figure)))));
         ownerIds.add(figureManager.addOnwer(new Owner("Konstanty", new LinkedList<Figure>(Arrays.asList(figure1)))));
     }
 
     @Test
-    public void addPhoneTest() {
+    public void addFigureTest() {
         assertTrue(figureIds.size() > 0);
+    }
+
+    @Test
+    public void addOwnerTest() {
+        assertTrue(ownerIds.size() > 0);
     }
 
     @Test
@@ -65,6 +70,11 @@ public class FigureManagerTest {
     }
 
     @Test
+    public void getFigureByIdTest() {
+        assertEquals("skeleton", figureManager.findFigureById(figureIds.get(0)).getName());
+    }
+
+    @Test
     public void deleteFigureTest() {
         int prevSize = figureManager.findAllFigure().size();
         Figure figure = figureManager.findFigureById(figureIds.get(0));
@@ -72,6 +82,11 @@ public class FigureManagerTest {
         figureManager.deleteFigure(figure);
         assertNull(figureManager.findFigureById(figureIds.get(0)));
         assertEquals(prevSize - 1, figureManager.findAllFigure().size());
+    }
+
+    @Test
+    public void findOwnerByIdTest() {
+        assertEquals("Andrzej", figureManager.findOwnerById(ownerIds.get(0)).getFirstName());
     }
 
     @Test()
@@ -93,6 +108,19 @@ public class FigureManagerTest {
         Owner owner = figureManager.findOwnerById(ownerIds.get(1));
         List<Figure> figures = figureManager.getAllFiguresForOwner(owner);
         assertEquals(1, figures.size());
+    }
+
+    @Test
+    public void transferPhoneToAnotherOwner() {
+        Figure figure = figureManager.findFigureById(figureIds.get(0));
+        Figure figure1 = figureManager.findFigureById(figureIds.get(1));
+        Owner owner = figureManager.findOwnerById(ownerIds.get(0));
+        Owner owner1 = figureManager.findOwnerById(ownerIds.get(1));
+        figureManager.transferFigureToAnotherOwner(
+                figure, figure1, owner, owner1);
+        assertEquals("ragnaros", figureManager.getAllFiguresForOwner(owner).get(0).getName());
+        assertEquals("skeleton", figureManager.getAllFiguresForOwner(owner1).get(0).getName());
+
     }
 
 
