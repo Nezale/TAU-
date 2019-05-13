@@ -5,9 +5,9 @@ import java.util.Objects;
 @Entity(name = "Figure")
 @Table(name = "figure")
 @NamedQueries({
-        @NamedQuery(name = "figure.all", query = "Select p from Figure p"),
-        @NamedQuery(name = "figure.findFigure", query = "Select c from Figure c where c.name like :figureNameFragment"),
-        @NamedQuery(name = "figure.findFigureByOwner", query = "Select c from Figure c where c.owner like :ownerNameFragment")
+        @NamedQuery(name = "figure.all", query = "Select f from Figure f"),
+        @NamedQuery(name = "figure.findFigure", query = "Select f from Figure f where f.name like :figureNameFragment"),
+        @NamedQuery(name = "figure.findFiguresByOwner", query = "Select f from Figure f where f.owner like :owner")
 })
 public class Figure {
 

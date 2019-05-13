@@ -66,17 +66,28 @@ public class FigureManagerImpl implements FigureManager {
 
     @Override
     public Long addOnwer(Owner owner) {
-        return null;
+        if (owner.getId() != null)
+            throw new IllegalArgumentException("the owner ID should be null if added to database");
+        sessionFactory.getCurrentSession().persist(owner);
+        for (Figure figure : owner.getFigures()) {
+            figure.setOwner(owner);
+            sessionFactory.getCurrentSession().update(figure);
+        }
+        sessionFactory.getCurrentSession().flush();
+        return owner.getId();
     }
 
     @Override
     public List<Figure> getAllFiguresForOwner(Owner owner) {
-        return null;
+        return (List<Figure>) sessionFactory.getCurrentSession()
+                .getNamedQuery("figure.findFiguresByOwner")
+                .setParameter("owner", owner)
+                .list();
     }
 
     @Override
     public Owner findOwnerById(Long id) {
-        return null;
+        return (Owner) sessionFactory.getCurrentSession().get(Owner.class, id);
     }
 
     @Override
