@@ -17,7 +17,7 @@ public interface FigureManager {
 
     void updateFigure(Figure figure);
 
-    List<Figure> findFigureByName(String phoneName);
+    List<Figure> findFigureByName(String figureName);
 
     Long addOnwer(Owner owner);
 

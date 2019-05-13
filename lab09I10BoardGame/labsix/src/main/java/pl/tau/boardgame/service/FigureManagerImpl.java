@@ -57,8 +57,11 @@ public class FigureManagerImpl implements FigureManager {
     }
 
     @Override
-    public List<Figure> findFigureByName(String phoneName) {
-        return null;
+    public List<Figure> findFigureByName(String figureName) {
+        return (List<Figure>) sessionFactory.getCurrentSession()
+                .getNamedQuery("figure.findFigure")
+                .setString("figureNameFragment", "%" + figureName + "%")
+                .list();
     }
 
     @Override

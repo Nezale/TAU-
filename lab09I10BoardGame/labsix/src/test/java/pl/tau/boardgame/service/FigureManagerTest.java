@@ -82,6 +82,12 @@ public class FigureManagerTest {
         Assert.assertEquals("rumcajs", figureManager.findFigureById(1L).getName());
     }
 
+    @Test
+    public void findfigureByNameTest() {
+        List<Figure> figures = figureManager.findFigureByName("rag");
+        assertEquals("ragnaros", figures.get(0).getName());
+    }
+
 
 
 }
