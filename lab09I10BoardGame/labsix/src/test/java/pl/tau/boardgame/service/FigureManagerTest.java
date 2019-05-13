@@ -33,7 +33,7 @@ public class FigureManagerTest {
     @Autowired
     FigureManager figureManager;
 
-    List<Long> figureIds;
+    private List<Long> figureIds;
     private List<Long> ownerIds;
 
     @Before
