@@ -54,4 +54,15 @@ public class FigureManagerTest {
         assertTrue(figureIds.size() > 0);
     }
 
+    @Test
+    public void getAllFiguresTest() {
+        List<Long> foundIds = new LinkedList<>();
+        for (Figure figure : libraryManager.findAllFigure()) {
+            if (figureIds.contains(figure.getId())) foundIds.add(figure.getId());
+        }
+        assertEquals(figureIds.size(), foundIds.size());
+    }
+
+
+
 }
