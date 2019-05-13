@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="966193a7-2114-4acd-b35f-5676a5a5b1c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -109,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="86" column="62" lean-forward="true" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+            <state relative-caret-position="401">
+              <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
               <folding>
                 <element signature="e#1921#1922#0" expanded="true" />
                 <element signature="e#1968#1969#0" expanded="true" />
@@ -145,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/domain/Owner.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" />
+        <option value="$PROJECT_DIR$/log_of_everything.log" />
         <option value="$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" />
       </list>
     </option>
@@ -353,14 +351,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557781246736</updated>
-      <workItem from="1557781249622" duration="5170000" />
+      <workItem from="1557781249622" duration="5281000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FigureManagerTest - 2019.05.13 at 23h 35m 57s.xml">
-      <configuration name="FigureManagerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FigureManagerTest - 2019.05.13 at 23h 39m 40s.xml">
       <configuration name="FigureManagerTest" configurationId="JUnit" />
     </history-entry>
@@ -388,9 +383,12 @@
     <history-entry file="FigureManagerTest - 2019.05.13 at 23h 59m 23s.xml">
       <configuration name="FigureManagerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FigureManagerTest - 2019.05.14 at 00h 30m 24s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5170000" />
+    <option name="totallyTimeSpent" value="5281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -402,11 +400,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Spring" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -435,9 +433,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log_of_everything.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/boardgame/domain/Owner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -519,10 +514,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log_of_everything.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="86" column="62" lean-forward="true" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+        <state relative-caret-position="401">
+          <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
           <folding>
             <element signature="e#1921#1922#0" expanded="true" />
             <element signature="e#1968#1969#0" expanded="true" />

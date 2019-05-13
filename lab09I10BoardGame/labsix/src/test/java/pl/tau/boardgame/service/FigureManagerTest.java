@@ -88,6 +88,12 @@ public class FigureManagerTest {
         assertEquals("ragnaros", figures.get(0).getName());
     }
 
+    @Test
+    public void findFiguresByOwner() {
+        Owner owner = figureManager.findOwnerById(ownerIds.get(1));
+        List<Figure> figures = figureManager.getAllFiguresForOwner(owner);
+        assertEquals(1, figures.size());
+    }
 
 
 }
