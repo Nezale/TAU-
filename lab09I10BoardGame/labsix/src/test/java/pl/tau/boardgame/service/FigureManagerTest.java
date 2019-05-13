@@ -29,6 +29,29 @@ import pl.tau.boardgame.domain.Owner;
 @Commit
 @Transactional(transactionManager = "txManager")
 public class FigureManagerTest {
+    @Autowired
+    FigureManager libraryManager;
 
+    List<Long> figureIds;
+    private List<Long> ownerIds;
+
+    @Before
+    public void setup() {
+        figureIds = new LinkedList<>();
+        figureIds.add(libraryManager.addFigure(new Figure("skeleton", 500)));
+        figureIds.add(libraryManager.addFigure(new Figure("ragnaros", 200)));
+        figureIds.add(libraryManager.addFigure(new Figure("gnar", 300)));
+
+        Figure figure = libraryManager.findFigureById(figureIds.get(0));
+        Figure figure1 = libraryManager.findFigureById(figureIds.get(1));
+        ownerIds = new LinkedList<>();
+        ownerIds.add(libraryManager.addOnwer(new Owner("Adrzej", new LinkedList<Figure>(Arrays.asList(figure)))));
+        ownerIds.add(libraryManager.addOnwer(new Owner("Konstanty", new LinkedList<Figure>(Arrays.asList(figure1)))));
+    }
+
+    @Test
+    public void addPhoneTest() {
+        assertTrue(figureIds.size() > 0);
+    }
 
 }
