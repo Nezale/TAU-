@@ -18,7 +18,6 @@ import static org.junit.Assert.*;
 
 public class SeleniumTest {
     private static WebDriver driver;
-    WebElement element;
     private StartPage startPage;
     private LoginPage loginPage;
 
@@ -42,26 +41,9 @@ public class SeleniumTest {
 
 
     @Test
-    public void homePage() throws IOException {
-        driver.get("http://automationpractice.com");
-        driver.findElement(By.cssSelector(".login")).click();
-
-        assertEquals("Sign in",
-                driver.findElement(
-                        By.cssSelector("#SubmitLogin")
-                ).getText());
-        if (driver instanceof TakesScreenshot) {
-            File f = ((TakesScreenshot) driver).
-                    getScreenshotAs(OutputType.FILE);
-            FileHandler.copy(f,
-                    new File("screenshots/homePage.png"));
-        }
-    }
-
-    @Test
-    public void bestSellersCount() {
+    public void popularCount() {
         startPage.open();
-        startPage.clickBestSellers();
+        startPage.clickPopular();
         assertEquals(7,
                 startPage.getProducts().size());
     }

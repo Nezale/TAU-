@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59cdcdce-b4be-444e-b033-43cd49dfb883" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04BoardGame/labthree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04BoardGame/labthree/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04BoardGame/labthree/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04BoardGame/labthree/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04BoardGame/labthree/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/target/classes/META-INF/labthree.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/target/test-classes/META-INF/labthree.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest$AbstractResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04BoardGame/labthree/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest$AbstractResultSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab04BoardGame/labthree/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab04BoardGame/labthree/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab05BoardGame/labfour/labone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab05BoardGame/labfour/labone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06Selenium/labfive/labthree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06Selenium/labfive/labthree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06Selenium/labfive/screenshots/homePage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/StartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/selenium/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/selenium/SeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__jboss_javassist_3_7_ga.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_orm_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_orm_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__org_springframework_spring_webmvc_portlet_4_3_24_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/shdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/shdemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/main/java/pl/tau/boardgame/domain/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/main/java/pl/tau/boardgame/domain/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/main/java/pl/tau/boardgame/service/FigureManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/src/test/java/pl/tau/boardgame/service/FigureManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/classes/META-INF/shdemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/classes/pl/tau/boardgame/domain/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/classes/pl/tau/boardgame/domain/Figure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/classes/pl/tau/boardgame/service/FigureManagerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/classes/pl/tau/boardgame/service/FigureManagerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/test-classes/META-INF/shdemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/test-classes/pl/tau/boardgame/service/FigureManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab09I10BoardGame/labsix/target/test-classes/pl/tau/boardgame/service/FigureManagerTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/labfive/boardGame/service/FigureManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/FigureManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/FigureMangerHibernateImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="46" selection-start-line="46" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/domain/RPGFigure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#25#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log_of_everything.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/LibraryManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/labfive/boardGame/service/LibraryManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/LibraryMangerHibernateImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/FigureMangerHibernateImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/FigureManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/labfive/boardGame/service/FigureManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/domain/RPGFigure.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-9" />
+    <option name="y" value="1" />
+    <option name="width" value="1105" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab09BoardGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab09BoardGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab09BoardGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab09BoardGame" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab09BoardGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab09BoardGame" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab09BoardGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab09BoardGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FigureManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.labfive.boardGame.service.FigureManager" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.labfive.boardGame.service" />
+      <option name="MAIN_CLASS_NAME" value="pl.labfive.boardGame.service.FigureManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FigureManagerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59cdcdce-b4be-444e-b033-43cd49dfb883" name="Default Changelist" comment="" />
+      <created>1556608562609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556608562609</updated>
+      <workItem from="1556608563970" duration="2144000" />
+      <workItem from="1556610939611" duration="1350000" />
+      <workItem from="1556612507792" duration="2762000" />
+      <workItem from="1556615547683" duration="253000" />
+      <workItem from="1557814045962" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LibraryManagerTest - 2019.04.30 at 10h 46m 58s.xml">
+      <configuration name="LibraryManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 10h 53m 58s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 10h 55m 15s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 10h 57m 51s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 10h 59m 06s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 11h 00m 28s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 11h 01m 20s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 11h 01m 33s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 11h 02m 52s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureManagerTest - 2019.04.30 at 11h 06m 21s.xml">
+      <configuration name="FigureManagerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7108000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="1" width="884" height="832" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657767" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/domain/Person.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/labfive/boardGame/service/FigureManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/FigureManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/service/FigureMangerHibernateImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="46" selection-start-line="46" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_of_everything.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/labfive/boardGame/domain/RPGFigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#25#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shdemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

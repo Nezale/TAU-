@@ -11,22 +11,22 @@ import java.util.List;
 public class StartPage {
     private final WebDriver driver;
 
-    @FindBy(xpath = "//*[@id=\"home-page-tabs\"]/li[2]/a")
-    WebElement bestSellersLink;
+    @FindBy(xpath = "//*[@id=\"home-page-tabs\"]/li[1]/a")
+    WebElement popularLink;
 
     public StartPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public WebElement getBestSellers() {
-        return bestSellersLink;
+    public WebElement getPopularLink() {
+        return popularLink;
     }
-    public void clickBestSellers() {
-        getBestSellers().click();
+    public void clickPopular() {
+        getPopularLink().click();
     }
 
     public List<WebElement> getProducts() {
-        return driver.findElement(By.cssSelector("#blockbestsellers")).findElements(By.tagName("li"));
+        return driver.findElement(By.cssSelector("#homefeatured")).findElements(By.tagName("li"));
     }
 
     public void open() {

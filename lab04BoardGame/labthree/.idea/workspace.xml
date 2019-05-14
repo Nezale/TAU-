@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="77046720-16c1-4d00-ae94-7018232855d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/labthree.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/labthree.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest$AbstractResultSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest$AbstractResultSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab05BoardGame/labfour/labone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab05BoardGame/labfour/labone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab06Selenium/labfive/labthree.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab06Selenium/labfive/labthree.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab06Selenium/labfive/screenshots/homePage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/StartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/selenium/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab06Selenium/labfive/src/test/java/pl/tau/BoardGame/selenium/SeleniumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,25 +24,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+            <state relative-caret-position="68">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4131">
-              <caret line="263" column="38" selection-start-line="263" selection-start-column="38" selection-end-line="263" selection-end-column="38" />
+            <state relative-caret-position="265">
+              <caret line="219" column="60" selection-start-line="219" selection-start-column="60" selection-end-line="219" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,20 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="1734">
               <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/Java/src.zip!/java/net/URLClassLoader.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5542">
-              <caret line="380" selection-start-line="380" selection-end-line="380" />
+            <state relative-caret-position="680">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -106,12 +120,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Domain/RPGfigure.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java" />
       </list>
     </option>
   </component>
@@ -123,8 +139,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="5" />
+    <option name="x" value="-14" />
+    <option name="y" value="1" />
     <option name="width" value="1105" />
     <option name="height" value="1040" />
   </component>
@@ -161,6 +177,53 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="labthree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labthree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BoardGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labthree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labthree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BoardGame" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labthree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labthree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BoardGame" type="462c0819:PsiDirectoryNode" />
+              <item name="Domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labthree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labthree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labthree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labthree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labthree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="labthree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DaoTests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,10 +231,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553556038586" />
-    <property name="last_opened_file_path" value="F:/springTrening/Band-it" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab09I10BoardGame/labsix" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -187,7 +251,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FigureDaoImplTest.deleteExceptionCheck">
+  <component name="RunManager" selected="JUnit.FigureDaoImplTest">
+    <configuration name="FigureDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labthree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.tau.BoardGame.DaoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
+      <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FigureDaoImplTest.addInOrderExceptionCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labthree" />
       <extension name="coverage">
@@ -215,22 +294,6 @@
       <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
       <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
       <option name="METHOD_NAME" value="deleteExceptionCheck" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FigureDaoImplTest.deleteRPGfigureCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labthree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.tau.BoardGame.DaoTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.tau.BoardGame.DaoTests" />
-      <option name="MAIN_CLASS_NAME" value="pl.tau.BoardGame.DaoTests.FigureDaoImplTest" />
-      <option name="METHOD_NAME" value="deleteRPGfigureCheck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -270,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FigureDaoImplTest" />
         <item itemvalue="JUnit.FigureDaoImplTest.deleteExceptionCheck" />
         <item itemvalue="JUnit.FigureDaoImplTest.updateExceptionCheck" />
         <item itemvalue="JUnit.FigureDaoImplTest.getRPGfigureExceptionCheck" />
         <item itemvalue="JUnit.FigureDaoImplTest.addInOrderExceptionCheck" />
-        <item itemvalue="JUnit.FigureDaoImplTest.deleteRPGfigureCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -296,16 +359,14 @@
       <workItem from="1553464064644" duration="2022000" />
       <workItem from="1553553815661" duration="2222000" />
       <workItem from="1553610098470" duration="597000" />
+      <workItem from="1556609089972" duration="1537000" />
+      <workItem from="1556610943904" duration="581000" />
+      <workItem from="1556612507342" duration="599000" />
+      <workItem from="1557814038950" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FigureDaoImplTest_updateExceptionCheck - 2019.03.25 at 23h 53m 54s.xml">
-      <configuration name="FigureDaoImplTest.updateExceptionCheck" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FigureDaoImplTest_addInOrderExceptionCheck - 2019.03.26 at 00h 00m 07s.xml">
-      <configuration name="FigureDaoImplTest.addInOrderExceptionCheck" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FigureDaoImplTest_getRPGfigureExceptionCheck - 2019.03.26 at 00h 00m 51s.xml">
       <configuration name="FigureDaoImplTest.getRPGfigureExceptionCheck" configurationId="JUnit" />
     </history-entry>
@@ -330,14 +391,20 @@
     <history-entry file="FigureDaoImplTest_deleteExceptionCheck - 2019.03.26 at 00h 09m 11s.xml">
       <configuration name="FigureDaoImplTest.deleteExceptionCheck" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FigureDaoImplTest - 2019.04.30 at 09h 26m 35s.xml">
+      <configuration name="FigureDaoImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FigureDaoImplTest - 2019.04.30 at 09h 37m 19s.xml">
+      <configuration name="FigureDaoImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25998000" />
+    <option name="totallyTimeSpent" value="28745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24496645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -347,13 +414,13 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="11" />
@@ -385,27 +452,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="497" selection-start-line="497" selection-end-line="497" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
+    <entry file="jar://F:/Java/src.zip!/java/lang/reflect/Method.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.9/junit-4.9.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -431,48 +479,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class" />
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/misc/Launcher.class" />
+    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class" />
+    <entry file="jar://F:/Java/src.zip!/java/lang/ClassLoader.java" />
+    <entry file="jar://F:/Java/src.zip!/java/net/URLClassLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/misc/Launcher.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/DAO/FigureDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="423" selection-start-line="423" selection-end-line="423" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/tau/BoardGame/Dao/FigureDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+        <state relative-caret-position="68">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -500,27 +522,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/tau/BoardGame/DaoTests/FigureDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4131">
-          <caret line="263" column="38" selection-start-line="263" selection-start-column="38" selection-end-line="263" selection-end-column="38" />
+        <state relative-caret-position="265">
+          <caret line="219" column="60" selection-start-line="219" selection-start-column="60" selection-end-line="219" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Java/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5542">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
         </state>
       </provider>
     </entry>

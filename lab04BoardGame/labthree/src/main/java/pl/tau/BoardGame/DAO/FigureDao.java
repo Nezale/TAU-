@@ -1,4 +1,4 @@
-package pl.tau.BoardGame.Dao;
+package pl.tau.BoardGame.DAO;
 
 import pl.tau.BoardGame.Domain.RPGfigure;
 

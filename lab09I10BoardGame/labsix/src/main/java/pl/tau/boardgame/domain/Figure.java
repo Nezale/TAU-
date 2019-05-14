@@ -92,4 +92,13 @@ public class Figure {
                 ", owner=" + owner +
                 '}';
     }
+
+    public Figure clone() {
+        Figure f = new Figure();
+        f.owner = null;
+        f.id = id;
+        f.name = name;
+        f.HP = HP;
+        return f;
+    }
 }

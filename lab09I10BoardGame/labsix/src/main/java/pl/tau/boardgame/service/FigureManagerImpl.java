@@ -92,9 +92,6 @@ public class FigureManagerImpl implements FigureManager {
 
     @Override
     public void transferFigureToAnotherOwner(Figure figure1, Figure figure2, Owner owner1, Owner owner2) {
-        figure1.setOwner(owner2);
-        sessionFactory.getCurrentSession().save(owner2);
-        sessionFactory.getCurrentSession().save(figure1);
 
         figure2.setOwner(owner1);
         sessionFactory.getCurrentSession().save(owner1);
