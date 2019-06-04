@@ -1,0 +1,3 @@
+pl\labfive\boardGame\domain\RPGFigure.class
+pl\labfive\boardGame\service\LibraryManager.class
+pl\labfive\boardGame\service\LibraryMangerHibernateImpl.class

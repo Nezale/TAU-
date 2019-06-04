@@ -8,8 +8,7 @@ import org.mockito.InOrder;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
-import pl.tau.BoardGame.Dao.FigureDao;
-import pl.tau.BoardGame.Dao.FigureDaoImpl;
+import pl.tau.BoardGame.DAO.FigureDaoImpl;
 import pl.tau.BoardGame.Domain.RPGfigure;
 
 import java.sql.*;
@@ -29,11 +28,6 @@ public class FigureDaoImplTest {
     static List<RPGfigure> initialDatabaseState;
 
 
-    /**
-     * Tylko na potrzeby testów! Przygotujmy odpowiedni ResultSet.
-     *
-     * UWAGA: Moglibyśmy zaimplementować cały ResultSet, ale wtedy musimy przygotować wszystkie metody które są w nim zadeklarowane.
-     */
     abstract class AbstractResultSet implements ResultSet {
         int i;
 

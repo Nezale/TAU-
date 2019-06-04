@@ -18,7 +18,7 @@
         Scans within the base package of the application for @Components to
         configure as beans
     -->
-    <context:component-scan base-package="pl.tau.boardgame.service"/>
+    <context:component-scan base-package="pl.tau.boardgame"/>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${jdbc.driverClassName}"/>
@@ -32,14 +32,14 @@
         enable the configuration of transactional behavior based on
         annotations
     -->
-    <tx:annotation-driven transaction-manager="txManager"/>
+    <!-- <tx:annotation-driven transaction-manager="txManager"/> -->
 
     <bean id="hibernateSessionFactory"
           class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="hibernateProperties">
             <props>
-                <!-- <prop key="hibernate.hbm2ddl.auto">create</prop> -->
+                <!--<prop key="hibernate.hbm2ddl.auto">create</prop>-->
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
                 <prop key="hibernate.dialect">org.hibernate.dialect.HSQLDialect</prop>
                 <prop key="hibernate.show_sql">true</prop>
